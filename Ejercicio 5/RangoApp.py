@@ -18,7 +18,7 @@ class RangoApp:
         try:
             numero=float(self.numero_entry.get())
             
-            if numero>0 and numero<21:
+            if numero>-1 and numero<21:
                 messagebox.showinfo("Número en el rango", f"El número que se encuentra del rango fue: {numero}")
                 
             else:
